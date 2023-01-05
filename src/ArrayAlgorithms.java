@@ -108,8 +108,9 @@ public class ArrayAlgorithms
     {
         int[] numListNew = numList;
         for(int i = 0; i < numList.length ; i++){
-
+            numListNew[i] = numListNew[i] * numListNew[i];
         }
+        System.out.println(Arrays.toString(numListNew));
     }
 
 }
